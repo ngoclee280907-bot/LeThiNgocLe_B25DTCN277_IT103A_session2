@@ -1,77 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        table {
-            font-family: "Times New Roman", serif;
-            font-size: 18px;
-            width: 100%;
-            text-align: left;
-        }
-        th {
-            font-size: 20px;
-            font-weight: bold;
-            padding: 8px;
-            text-align: center;
-        }
-        td {
-            padding: 8px;
-            vertical-align: middle;
-        }
-        td:nth-child(1), td:nth-child(3), td:nth-child(6), td:nth-child(7), td:nth-child(8) {
-            text-align: center;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
 </head>
 <body>
 
-    <table border="1" cellspacing="3" cellpadding="0">
-        <tr>
-            <th>STT</th>
-            <th>NAME</th>
-            <th>AGE</th>
-            <th>EMAIL</th>
-            <th>STATUS</th>
-            <th colspan="3">ACTIONS</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Nguyễn Văn A</td>
-            <td>18</td>
-            <td>NguyenVanA@gmail.com</td>
-            <td>Hoạt động</td>
-            <td>SỬA</td>
-            <td>XÓA</td>
-            <td rowspan="4">XÓA TẤT CẢ</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Trần Văn B</td>
-            <td>23</td>
-            <td>TranVanB@gmail.com</td>
-            <td>Hoạt động</td>
-            <td>SỬA</td>
-            <td>XÓA</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Phạm Thị C</td>
-            <td>19</td>
-            <td>PhamThiC@gmail.com</td>
-            <td>Hoạt động</td>
-            <td>SỬA</td>
-            <td>XÓA</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Phan Văn D</td>
-            <td>20</td>
-            <td>PhanVanD@gmail.com</td>
-            <td>Không hoạt động</td>
-            <td>SỬA</td>
-            <td>XÓA</td>
-        </tr>
+    <table border="1" cellspacing="0" cellpadding="8" align="center" width="800">
+        <thead>
+            <tr align="center">
+                <td>STT</td>
+                <td>Tên</td>
+                <td>Tuổi</td>
+                <td>Email</td>
+                <td>Status</td>
+                <td colspan="3">Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">1</td>
+                <td>Nguyễn Văn A</td>
+                <td align="center">18</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Hoạt động</td>
+                <td align="center"><button>Sửa</button></td>
+                <td align="center"><button>Xóa</button></td>
+                <td rowspan="4" align="center">Xóa tất cả</td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td>Trần Thị B</td>
+                <td align="center">23</td>
+                <td>tranthib@gmail.com</td>
+                <td>Hoạt động</td>
+                <td align="center"><button>Sửa</button></td>
+                <td align="center"><button>Xóa</button></td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td>Lê Thị C</td>
+                <td align="center">19</td>
+                <td>lethic@gmail.com</td>
+                <td>Hoạt động</td>
+                <td align="center"><button>Sửa</button></td>
+                <td align="center"><button>Xóa</button></td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td>Phan Văn D</td>
+                <td align="center">20</td>
+                <td>phanvand@gmail.com</td>
+                <td>Không hoạt động</td>
+                <td align="center"><button>Sửa</button></td>
+                <td align="center"><button>Xóa</button></td>
+            </tr>
+        </tbody>
     </table>
 
 </body>
-</html>
+</html>
